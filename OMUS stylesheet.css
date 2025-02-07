@@ -1,0 +1,706 @@
+*{
+    padding: 0;
+}
+
+.colortheme{
+    background-color: rgb(195, 227, 230) ,rgba(208, 220, 244, 0.83);
+}
+
+.topbar{
+    background-image: linear-gradient( rgb(7, 182, 198) ,rgb(11, 61, 178));
+    padding:2px 0 ;
+}
+
+.connum{
+    display: flex;
+}
+
+.contactno{
+    flex-basis: 50%;
+}
+
+.contactno a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.contactno a:hover{
+    color:rgb(204, 168, 9);
+}
+
+.contactno i{
+    color: #fff;
+}
+
+.icons{
+    flex-basis: 50%;
+    justify-content: space-around;
+}
+
+.fonticons{
+    text-align: end;
+     padding-right: 0vw;
+     display: block;
+}
+
+.fonticons i{
+    color: #fff;
+    font-size: larger;
+}
+
+.fonticons i:hover{
+    color: rgb(204, 168, 9);
+}
+
+
+/* main page logo and header text start from here */
+
+.logoheader{
+    display: flex;
+}
+
+.logofirst{
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logofirst img{
+    height: 18vh;
+}
+
+
+#fullheadercolor{
+    background-image: linear-gradient(rgb(195, 227, 230) ,rgba(208, 220, 244, 0.83));
+}
+
+
+.logotextpart{
+    flex-basis: 50%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.logotextpart h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(32, 12, 12);
+}
+
+.logotextpart h5{
+    color: rgb(23, 46, 38);
+}
+
+.logosecond{
+    flex-basis: 25%;
+    float: right;
+}
+.logosecond img{
+    height: 27vh;
+}
+
+
+
+
+/* page menu bar start from here */
+
+#navtheme{
+    background-image: linear-gradient( rgb(7, 182, 198) ,rgb(11, 61, 178));
+}
+
+
+#collapsibleNavbar li a{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menustyles li{
+    padding: 0 5px;
+    margin: 0 3px;
+}
+
+#menustyles li:hover{
+    background-image: linear-gradient( rgba(21, 133, 143, 0.932) ,rgba(22, 68, 175, 0.932));
+}
+
+
+#menustyles li a:hover{
+    color: rgb(204, 168, 9);
+}
+
+#dropdownli{
+    background-image: linear-gradient( rgb(7, 182, 198) ,rgb(11, 61, 178));
+}
+
+
+
+/* poster part start from here */
+
+.posterstyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:1px 0px 25px 8px rgba(126, 126, 128, 0.738) ;
+    border-radius: 40px;
+}
+
+
+/* page news in marquee start from here */
+
+.pagetextmarquee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newmarquee{
+    flex-basis: 90%;
+    font-family:Tahoma, Geneva, sans-serif ;
+}
+
+.newmarquee a{
+    text-decoration: none;
+}
+
+.newmarquee a:hover{
+    color: blueviolet;
+}
+
+
+/* page all text in paragraph start from here */
+
+.mainparatext{
+    display: block;
+    margin: 2vh 5vw;
+}
+
+.paraheading{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paraheading h2{
+    font-size: 2.5rem;
+    color: rgb(5, 5, 50);
+}
+
+.paramaintext{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 3px 5px rgba(82, 82, 126, 0.38);
+    border-radius: 15px;
+    padding: 2vh 3vw 3vh 3vw;
+}
+
+.paramaintext p{
+    font-size: 1.3rem;
+    font-style: oblique;
+}
+
+
+
+/* youtube video part start from here */
+
+.ytandnews{
+    display:flex ;
+    padding: 10vh 6vw;
+    height: 75vh;
+}
+
+.youtubea{
+    flex-basis: 70%;
+}
+
+.youtubea iframe{
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+.youtubea iframe:hover{
+    transform: scale( 1.02);
+    box-shadow: 2px 8px 43px rgb(164, 171, 173);
+}
+
+.News{
+flex-basis: 30%;
+box-shadow: 2px 15px 53px grey;
+border-radius: 15px;
+overflow: hidden;
+margin: 0 0 0 2vw ;
+background: linear-gradient( rgb(164, 236, 243),rgba(78, 122, 226, 0.904));
+
+}
+
+.newsheading h4{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.News ul{
+    padding: 0 1vw; 
+    height: fit-content;
+}
+
+.News ul li{
+    list-style-type: none;
+   text-align: center;
+    padding: 1vh 0;
+    margin: 1vh 0;
+    border: #dfdfdf 1px solid;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.News ul li:hover{
+    box-shadow: 1px 1px 10px rgba(206, 204, 204, 0.63);
+    border-radius: 8px;
+    transform: scale(1.09);
+}
+
+.newsset li a{
+    text-decoration: none;
+    color: rgb(25, 25, 72);
+    font-size:1.1rem ;
+}
+
+.newsset li a:hover{
+    color: rgb(194, 241, 241);
+}
+.newsbox marquee {
+    height: 60vh;
+}
+
+
+
+
+
+
+
+
+
+/* footer part start from here */
+.footer{
+    background: linear-gradient(135deg, rgba(233, 222, 187, 0.384) ,rgba(137, 146, 102, 0.438));
+    padding: 1vh 0 0 0 ;
+    
+}
+.footer1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 3vh 8vw;
+    grid-gap: 0px;
+}
+.address{
+    border-right: 1px groove black;
+    width: 100%;
+    padding-right: 1vw;
+}
+.address-head{
+    display: flex;
+    align-items: center;
+}
+.address-head div{
+    position: relative;
+    height: 3px;
+    width: 9%;
+    background-color: blue;
+}
+.address-detail{
+    margin-top: 1vh;
+}
+.contact{
+    padding-left: 13vw;
+}
+.contact-head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.contact-head div{
+    position: relative;
+    height: 3px;
+    width: 9%;
+    background-color: blue;
+}
+.contact-detail{
+    margin-top: 1vh;
+}
+.contact-detail a{
+    text-decoration: none;
+    color: black;
+}
+.footer2{
+    text-align: center;
+    padding-bottom: 2vh;
+}
+.footer2 .icons a i{
+    font-size: 23px;
+    padding: 0vh 1.5vw;
+    transition: transform .5s, text-shadow .5s;
+}
+.footer2 .icons a:hover i{
+    text-shadow: 1px 10px 5px rgb(112, 99, 99);
+    transform: scale(1.2);
+}
+.footer3{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 15vw  0 7vw;
+    background-color: rgb(62, 93, 107);
+    align-items: center;
+    color: #fff;
+    margin: 0;
+}
+.footer3-col1 p{
+    font-size: 1vw;
+}
+.footer3-col2 p{
+    font-size: 1vw;
+}
+.footer3-col2 a{
+    color:rgb(204, 168, 9) ;
+}
+.footer3-col2 a:hover{
+    color:lightgreen ;
+}
+
+
+@media only screen and (max-width: 390px){
+    .fonticons{
+        display: block;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+    }
+    .logofirst{
+        flex-basis: 25%;
+    }
+    .logofirst img{
+        height:70px;
+        width: auto;
+    }
+    .logotextpart{
+        flex-basis: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .logosecond{
+        flex-basis: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoheader h1{
+        font-size:2rem;
+        text-align: center;
+    }
+    .logoheader h3{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .logoheader h5{
+        font-size: 1rem;
+    }
+    .logosecond img{
+        height: auto;
+        width: 25vw;
+    }
+    .youtubea iframe{
+        height: fit-content;
+        width: fit-content;
+    }
+    .ytandnews{
+        display: block;
+    }
+    .youtubea{
+        margin:10vh 0;
+    }
+    .News{
+        margin:5vh 0;
+    }
+    .bottom{
+        display: block;
+    }
+    .bottomtext1{
+        padding: 1vh 3vw;
+    }
+.bottomtext2{
+    padding: 1vh 3vw;
+}
+}
+
+
+@media only screen and (max-width: 320px){
+    .icons{
+        display: block;
+    }
+    .contactno a{
+       font-size:small;
+    }
+    .fonticons a{
+        margin: 0 2vw;
+    }
+    .youtubea iframe{
+        height: 50vh;
+        width: 80vw;
+    }
+    .bottom{
+        display: block;
+        padding: 2vh 3vw;
+        margin: 0;
+    }
+    .contact1 p{
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 240px){
+        .connum .contactno a{
+            font-size: 10px;
+        }
+        .fonticons a{
+            font-size: small;
+        }
+         .logofirst img{
+            height: 10vh;
+            width: auto;
+        }
+        .logotextpart h1{
+            font-size: 1.2rem;
+        }
+        .logotextpart h3{
+            font-size:0.8rem ;
+        }
+        .logotextpart h5{
+            font-size: 0.7rem;
+        }
+        .logosecond img{
+            height: 15vh;
+            width: auto;
+        }
+        .newmarquee marquee a{
+            font-size: 0.8rem;
+        }
+        .paraheading h2{
+            font-size: 1.22rem;
+        }
+        .paramaintext p{
+            font-size: 0.7rem;
+        }
+        .newsheading h4{
+            font-size: 1.3rem;
+        }
+        .newsset li a{
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+        .contact1 p{
+            font-size: 0.6rem;
+        }
+        .bottomtext2 p{
+            font-size: 0.7rem;
+        }
+        .icons a img{
+            height: 28px;
+            width: 22px;
+            margin: 1vh 1vw;
+        }
+        .bottom{
+            display: block;
+            padding: 1vh 3vw;
+        }
+}
+
+@media only screen and (max-width: 280px){
+    .contactno a{
+        font-size:0.7rem;
+    }
+    .fonticons a{
+        font-size: 0.9rem;
+    }
+    .logofirst{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logofirst img{
+        height: 50px;
+        width: auto;
+    }
+    .contact1 p{
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+    .icons a img{
+        height: 35px;
+        width: 31px;
+    }
+}
+
+
+@media only screen and (max-width: 393px){
+
+    .logofirst img{
+        height: 90px;
+        width: 88px;
+    }
+    .logotextpart h1{
+        font-size: 2rem;
+    }
+    .logotextpart h2{
+        font-size: 1rem;
+    }
+    .logosecond{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logosecond img{
+        height:90px ;
+        width: 88px;
+        
+    }
+    .youtubea iframe{
+        height: 40vh;
+        width: 80vw;
+        margin: 0 0 10vh 0;
+    }
+    .ytandnews{
+        display: block;
+    }
+    .bottom{
+        display: block;
+        padding: 2vh 4vw;
+    }
+    .bottomtext2 .icons a{
+        margin: 1vh 1vw;
+    }
+
+}
+
+
+@media only screen and (max-width: 414px){
+
+    .logofirst img{
+        height: 78px;
+        width: 80px;
+    }
+    .logotextpart h1{
+        font-size: 1.3rem;
+        text-decoration: underline;
+    }
+    .logotextpart h3{
+        font-size: 1rem;
+    }
+    .logotextpart h5{
+        font-size: 0.9rem;
+    }
+    .logosecond{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logosecond img{
+        height: 100px;
+        width: 95px;
+    }
+    .ytandnews{
+        display: block;
+    }
+    .youtubea iframe{
+        height: 30vh;
+        width: 80vw;
+        margin: 0 0 10vh 0;
+    }
+    .bottom{
+        padding: 1vh 5vw;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1048px){
+    #menustyles li{
+        margin:0 ;
+        padding:0 ;
+    }
+    #menustyles li a{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width: 751px){
+
+    #menustyles li{
+        padding: 0;
+        margin: 0;
+    }
+    #menustyles li a{
+        font-size: 0.6rem;
+    }
+
+}
+@media only screen and (max-width: 480px){
+    .address{
+        border-right: none;
+        border-bottom: 1px groove black;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
