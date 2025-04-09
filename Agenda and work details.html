@@ -13,7 +13,41 @@
     <script src="https://kit.fontawesome.com/0212a92ad4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit.fontawesome.com/0212a92ad4.css" crossorigin="anonymous">
 
-    
+    <style>
+        .paratextaboutus{
+            display: block;
+            justify-content: center;
+            align-items:center;
+            border: 0.5px solid lightblue;
+            border-radius: 15px;
+            margin: 5vh 0 10vh 0;
+            transition: all 0.5s ease-in;
+        }
+        .paratextaboutus:hover{
+          box-shadow: 1px 1px 6px 4px lightblue;
+        }
+        .paraandheading{
+            padding: 3vh 4vw ;
+            font-size: 1.1rem;
+        }
+        .paraandheading a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            margin: 0 0 3vh 0;
+            transition: all 1s ease-in-out;
+        }
+        .paraandheading h3{
+          font-size: 2rem;
+          
+        }
+        .paraandheading a:hover{
+            color: rgb(204, 168, 9);
+            transform: scale(1.01);
+            
+        }
+    </style>
 
 </head>
 <body>
@@ -100,7 +134,7 @@
         </div>
       </nav>
 
-      
+
       <!-- poster part start from here -->
       <div class="container-fluid p-0">
         <div class="colortheme">
@@ -136,7 +170,21 @@
         </div>
         </div>
       </div>
-
+      <!-- page news in marquee start from here -->
+      <div class="container-fluid p-0">
+        <div class="colortheme">
+          <div class="container">
+            <div class="pagetextmarquee">  
+              <div class="newmarquee">
+                <marquee direction="left" onmousemove="stop()" onmouseout="start()">
+                  <a href="">welcome to OMUS :: Protect the nation from COVID 19. Stay Home Stay Safe.</a>
+                </marquee>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
 
       
 
